@@ -1,0 +1,47 @@
+===== Simulator configuration =====
+	L1_SIZE:	2048
+	L1_ASSOC:	4
+	L1_BLOCKSIZE:	32
+	VC_NUM_BLOCKS:	0
+	L2_SIZE:	0
+	L2_ASSOC:	0
+	trace_file:	gcc_trace.txt
+
+===== L1 contents =====
+	set	0:	20028d D	20018a  	20028e D	200198 D	
+	set	1:	2001c1 D	20028d D	200153 D	20013b  	
+	set	2:	200223 D	20028d D	200241  	2001c1  	
+	set	3:	20018a  	2001ac D	20028e D	20028d D	
+	set	4:	20018f D	2000f9  	20017a D	20018a  	
+	set	5:	200009  	20017a  	2000fa  	20018a  	
+	set	6:	200009  	2000f9  	20028d D	20018a  	
+	set	7:	200009  	2001ac  	2000fa  	200149  	
+	set	8:	200009  	3d819c D	20017b D	2000f9  	
+	set	9:	200009  	2000fa  	2000f9  	2001b2 D	
+	set	10:	200009  	200214  	2000fa  	20023f  	
+	set	11:	200009  	2001ab  	20013a  	20023f  	
+	set	12:	20018f D	2001f2  	2001aa  	20018a D	
+	set	13:	20028d D	20018d D	20013a  	20028c D	
+	set	14:	20013a  	20018d D	20028d D	2001ad D	
+	set	15:	2001f8 D	20028c D	20013a  	20018d D	
+
+===== Simulation results (raw) =====
+  a. number of L1 reads:				63640
+  b. number of L1 read misses:				5170
+  c. number of L1 writes:				36360
+  d. number of L1 write misses:				4452
+  e. number of swap requests:				0
+  f. swap request rate:					0
+  g. number of swaps:					0
+  h. combined L1+VC miss rate:				0.0962
+  i. number writebacks from L1/VC:			4942
+  j. number of L2 reads:				0
+  k. number of L2 read misses:				0
+  l. number of L2 writes:				0
+  m. number of L2 write misses:				0
+  n. L2 miss rate:					0
+  o. number of writebacks from L2:			0
+  p. total memory traffic:				14564
+
+===== Simulation results (performance) =====
+Cacti failed getting L1 results
